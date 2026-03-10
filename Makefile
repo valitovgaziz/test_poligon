@@ -1,2 +1,7 @@
+all: build start
+
 build:
-	gcc -o exec.exe main.c & .\exec.exe
+	gcc -o exec.exe main.c
+
+start:
+	.\exec.exe
